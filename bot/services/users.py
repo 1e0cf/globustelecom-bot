@@ -79,6 +79,7 @@ async def set_language_code(
 
     await session.execute(stmt)
     await session.commit()
+    await clear_cache(get_language_code, user_id)
 
 
 @cached(key_builder=lambda session, user_id: build_key(user_id))

@@ -13,6 +13,7 @@ dependencies = [
     "sqlalchemy<3.0.0,>=2.0.38",
     "pydantic<3.0.0,>=2.10.6",
     "pydantic-settings<3.0.0,>=2.8.1",
+    "greenlet>=3.2.1",
 ]
 
 [project.urls]
@@ -33,6 +34,7 @@ bot = [
     "orjson>=3.10.15,<4.0.0",
     "alembic>=1.14.1,<2.0.0",
     "prometheus-client>=0.21.1,<1.0.0",
+    "google-generativeai>=0.8.3,<1.0.0",
 ]
 admin = [
     "gunicorn>=23.0.0,<24.0.0",
@@ -56,10 +58,12 @@ dev = [
 fix = true
 unsafe-fixes = true
 line-length = 120
-lint.select = ["ALL"]
-lint.ignore = ["D", "ANN401", "FIX002", "COM812", "ISC001", "FBT001", "FBT002", "ERA", "ARG005", "PGH003", "A005"]
 cache-dir = "/tmp/ruff-cache/"
 extend-exclude = ["logs", "configs", "migrations"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "ANN401", "FIX002", "COM812", "ISC001", "FBT001", "FBT002", "ERA", "ARG005", "PGH003", "A005"]
 
 [tool.ruff.lint.isort]
 no-lines-before = ["future", "standard-library"]

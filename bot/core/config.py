@@ -37,6 +37,7 @@ class BotSettings(WebhookSettings):
     BOT_TOKEN: str
     SUPPORT_URL: str | None = None
     RATE_LIMIT: int | float = 0.5  # for throttling control
+    GEMINI_API_KEY: str | None = None
 
 
 class DBSettings(EnvBaseSettings):
@@ -81,7 +82,7 @@ class Settings(BotSettings, DBSettings, CacheSettings):
 
     SENTRY_DSN: str | None = None
 
-    AMPLITUDE_API_KEY: str  # or for example it could be POSTHOG_API_KEY
+    AMPLITUDE_API_KEY: str | None = None  # or for example it could be POSTHOG_API_KEY
 
 
 settings = Settings()

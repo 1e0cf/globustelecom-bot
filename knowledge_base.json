@@ -1,0 +1,365 @@
+{
+  "metadata": {
+    "source": "globustele.com",
+    "type": "esim_support_knowledge_base",
+    "version": "1.0",
+    "last_updated": "2024"
+  },
+  "service_overview": {
+    "description": "GlobusTelecom eSIM is a single, global prepaid eSIM that provides internet access in multiple countries. It's a one-time purchase without the need for country-specific packages or plans.",
+    "key_features": [
+      "One single eSIM for global coverage.",
+      "Pay-as-you-go model with low rates per GB.",
+      "Your balance never expires.",
+      "The eSIM itself remains active indefinitely, provided it is used at least once every two years.",
+      "Automatic and manual selection of network operators in most countries for best connectivity.",
+      "Unrestricted Internet access via European gateway."
+    ],
+    "user_actions": [
+      { "action": "Buy a new eSIM", "url": "https://globustele.com/#x-plan" },
+      {
+        "action": "Top-up an existing eSIM",
+        "url": "https://globustele.com/#x-topup"
+      },
+      {
+        "action": "Check data rates per country",
+        "url": "https://globustele.com/#x-price"
+      }
+    ]
+  },
+  "compatibility": {
+    "supported_devices": {
+      "apple": {
+        "smartphones": [
+          "iPhone 15 Pro Max",
+          "iPhone 15 Pro",
+          "iPhone 15 Plus",
+          "iPhone 15",
+          "iPhone 14 Pro Max",
+          "iPhone 14 Pro",
+          "iPhone 14 Plus",
+          "iPhone 14",
+          "iPhone 13 Pro Max",
+          "iPhone 13 Pro",
+          "iPhone 13 Mini",
+          "iPhone 13",
+          "iPhone 12 Pro Max",
+          "iPhone 12 Pro",
+          "iPhone 12 Mini",
+          "iPhone 12",
+          "iPhone 11 Pro Max",
+          "iPhone 11 Pro",
+          "iPhone 11",
+          "iPhone XS Max",
+          "iPhone XS",
+          "iPhone XR",
+          "iPhone SE 3 (2022)",
+          "iPhone SE 2 (2020)"
+        ],
+        "tablets": [
+          "iPad Pro 11-inch (second generation)",
+          "iPad Pro 12.9-inch (fourth generation)",
+          "iPad Pro 11-inch (first generation)",
+          "iPad Pro 12.9-inch (third generation)",
+          "iPad Air (third generation)",
+          "iPad (seventh generation)",
+          "iPad mini (fifth generation)"
+        ]
+      },
+      "android": {
+        "samsung": [
+          "Samsung Galaxy A54 5G",
+          "Samsung Galaxy Fold",
+          "Samsung Galaxy Note20",
+          "Samsung Galaxy Note20 Ultra",
+          "Samsung Galaxy S23",
+          "Samsung Galaxy S23 +",
+          "Samsung Galaxy S23 Ultra",
+          "Samsung Galaxy S22",
+          "Samsung Galaxy S22 +",
+          "Samsung Galaxy S22 Ultra",
+          "Samsung Galaxy S21 5G",
+          "Samsung Galaxy S21 + 5G",
+          "Samsung Galaxy S21 Ultra 5G",
+          "Samsung Galaxy S20",
+          "Samsung Galaxy S20 +",
+          "Samsung Galaxy S20 Ultra",
+          "Samsung Galaxy Z Flip",
+          "Samsung Galaxy Z Fold 2",
+          "Samsung Galaxy Z Fold 3 5G",
+          "Samsung Galaxy Z Fold 4",
+          "Samsung Galaxy Z Fold 5",
+          "Samsung Galaxy Z Flip 3 5G Fold",
+          "Samsung Galaxy Z Flip 3 5G",
+          "Samsung Galaxy Z Flip 4",
+          "Samsung Galaxy Z Flip 5"
+        ],
+        "doogee": ["Doogee V30"],
+        "fairphone": ["Fairphone 4", "Fairphone 5"],
+        "gemini": ["Gemini PDA"],
+        "google": [
+          "Google Pixel 8",
+          "Google Pixel 8 Pro",
+          "Google Pixel Fold",
+          "Google Pixel 7a",
+          "Google Pixel 7 Pro",
+          "Google Pixel 7",
+          "Google Pixel 6a",
+          "Google Pixel 6 Pro",
+          "Google Pixel 6",
+          "Google Pixel 5",
+          "Google Pixel 4",
+          "Google Pixel 4a",
+          "Google Pixel 4 XL",
+          "Google Pixel 3 (not including phones bought in Australia, Taiwan or Japan. Phones bought with United States or Canadian carriers other than Sprint and Google Fi do not work with eSIM)",
+          "Google Pixel 3 XL",
+          "Google Pixel 3a (not including phones bought in Japan or with Verizon service)",
+          "Google Pixel 3a XL",
+          "Google Pixel 2 (only phones bought with Google Fi service)",
+          "Google Pixel 2 XL"
+        ],
+        "hammer": ["Hammer Explorer PRO", "Hammer Blade 3", "Hammer Blade 5G"],
+        "honor": ["HONOR Magic 4 Pro", "HONOR Magic 5 Pro"],
+        "huawei": ["Huawei 40", "Huawei 40 Pro", "Huawei Mate 40 Pro"],
+        "motorola": [
+          "Motorola Razr 2019",
+          "Motorola Razr 5G",
+          "Motorola Razr 40",
+          "Motorola Razr 40 Ultra",
+          "Motorola Razr+",
+          "Motorola Edge+",
+          "Motorola Edge 40 Pro",
+          "Motorola G52J 5G",
+          "Motorola G52J 5G Ⅱ",
+          "Motorola G53J 5G"
+        ],
+        "nokia": ["Nokia G60 5G", "Nokia X30 5G", "Nokia XR21", "Nokia X30"],
+        "nuu": ["X5"],
+        "oppo": [
+          "Oppo Find N2 Flip",
+          "Oppo Find X3 Pro",
+          "Oppo Find X5",
+          "Oppo Find X5 Pro",
+          "Oppo Reno 5 A",
+          "Oppo A55s 5G",
+          "Find N2 Flip"
+        ],
+        "rakuten": [
+          "Rakuten Mini",
+          "Rakuten Big-S",
+          "Rakuten Big",
+          "Rakuten Hand",
+          "Rakuten Hand 5G"
+        ],
+        "sharp": [
+          "Sharp AQUOS sense4 lite",
+          "Sharp AQUOS Sense6s",
+          "AQUOS sense 7",
+          "AQUOS sense 7plus",
+          "Sharp AQUOS Wish",
+          "AQUOS wish 2 SHG08",
+          "AQUOS wish3",
+          "AQUOS zero 6",
+          "Simple Sumaho6",
+          "Sharp AQUOS R7",
+          "Sharp AQUOS R8",
+          "Sharp AQUOS R8 Pro"
+        ],
+        "sony": [
+          "Xperia 10 III Lite",
+          "Xperia 1 IV",
+          "Xperia 5 IV",
+          "Xperia 10 IV",
+          "Xperia 1 V",
+          "Xperia 5 V",
+          "Xperia 10 V"
+        ],
+        "surface": ["Surface Duo"],
+        "xiaomi": [
+          "Xiaomi 12T Pro",
+          "Xiaomi 13",
+          "Xiaomi 13 Lite",
+          "Xiaomi 13 Pro"
+        ],
+        "other_phones": [
+          "Surface Pro X",
+          "Honor 90",
+          "Fairphone 4",
+          "OnePlus 11",
+          "HAMMER Blade 3",
+          "HAMMER Explorer PRO",
+          "HAMMER Blade 5G",
+          "myPhone NOW eSIM",
+          "Vivo X90 Pro",
+          "Vivo V29 Lite 5G (eSIM supported only in Europe)"
+        ]
+      }
+    },
+    "general_requirements": []
+  },
+  "purchase_process": {
+    "steps": [
+      "Go to the 'Buy eSIM' page at https://globustele.com/#x-plan.",
+      "Click the 'BUY NOW' button.",
+      "Register for a new account or log in to your existing one. Registration requires your name, email, and a password, followed by email verification.",
+      "Complete the payment using a bank card via our secure Stripe payment gateway.",
+      "After a successful purchase, your new eSIM details will be available in your personal account dashboard."
+    ],
+    "account_data": [
+      "IMSI",
+      "Phone Number (for secondary type eSIMs, otherwise empty)",
+      "Current Balance (in USD)",
+      "ICCID",
+      "SM-DP+ server address",
+      "eSIM activation code (single use)",
+      "Apple Simple Install URL",
+      "QR code for installation (single use)"
+    ]
+  },
+  "installation": {
+    "methods": {
+      "qr_code": {
+        "steps": [
+          "Go to Settings / Connections / Cellular (Mobile) on your phone",
+          "Select **SIM card manager** and **Add mobile plan**",
+          "Tap on **Add using QR code**",
+          "Scan your QR code. A pop up will appear,**Add new mobile plan?** Tap on **Add**",
+          "A second pop up will appear, **Add new mobile plan?**Tap on **OK**",
+          "Your new data plan will be displayed in your eSIMs list",
+          "For certain eSIMs you might need to check your APN settings. The details on how to set your APN are included in the eSIM installation instructions SMS that you will receive after purchasing your eSIM and installing it into your phone."
+        ],
+        "tips": [
+          "With the latest versions of iOS you can just scan the QR code with your iPhone Camera application. It will ask if you want to install a new plan. With other phones, to scan the QR code, follow the steps below on your device:",
+          "The QR code is for single use only and can install the eSIM on one device.",
+          "Do not delete the eSIM profile from your device after installation, as it cannot be re-installed with the same QR code."
+        ]
+      },
+      "manual": {
+        "steps": [
+          "If you are experiencing issues scanning the QR code or receive the QR code on the device you are using, there is another option on your device that will allow you to enter details manually. You will be asked to enter:",
+          "Go to your device's Settings > Cellular/Mobile Data > Add eSIM/Add Cellular Plan.",
+          "Select the option to enter details manually.",
+          "Copy the 'SM-DP+ server' address and 'eSIM activation code' from your GlobusTelecom account and paste them into the respective fields.",
+          "Follow the on-screen instructions to complete."
+        ],
+        "required_info": ["SM-DP+ server address", "eSIM activation code"]
+      },
+      "apple_simple_install": {
+        "steps": [
+          "On your Apple device, click the 'Apple Simple Install URL' provided in your GlobusTelecom account.",
+          "Your device will automatically prompt you to add the cellular plan.",
+          "Tap 'Continue' and follow the on-screen instructions to finalize the installation."
+        ],
+        "tips": [
+          "This is an alternative installation method specifically for Apple devices.",
+          "It is useful if QR code or manual installation methods do not work."
+        ]
+      }
+    },
+    "post_installation": [
+      "Ensure 'Data Roaming' is turned ON for your GlobusTelecom eSIM in your phone's settings to connect to the internet."
+    ],
+    "apn_settings": "APN (Access Point Name) settings are typically configured automatically. Manual setup is not required for most devices."
+  },
+  "troubleshooting": {
+    "connectivity": {
+      "no_connection_fix": [
+        "1. Check that 'Data Roaming' is enabled for your GlobusTelecom eSIM.",
+        "2. Try restarting your device.",
+        "3. Manually select a network operator: Go to Settings > Cellular/Mobile Data > Network Selection, turn off 'Automatic', and choose a different available carrier from the list."
+      ],
+      "common_problems": [
+        {
+          "problem": "QR code already used or invalid",
+          "solution": "The installation QR code can only be used once. If the installation failed, you accidentally deleted the eSIM, or the code is not working, please contact support for assistance."
+        },
+        {
+          "problem": "Cannot top-up balance",
+          "solution": "Ensure you are entering the correct IMSI (or phone number for secondary eSIMs). The minimum top-up amount is 5 USD. If issues persist, please contact support."
+        }
+      ],
+      "roaming_setup": [
+        "To ensure your connection to the Global Mobile Data network you must switch your Roaming and Data Roaming settings on. You can find the Roaming switch in your smartphone Settings. For certain eSIMs you might need to check your APN settings. The details on how to set your APN are included in the eSIM installation instructions SMS that you will receive after purchasing your eSIM and installing it into your phone."
+      ],
+      "coverage_issues": [
+        "You might find it difficult to access the Internet in areas with limited mobile coverage or no coverage at all. Try switching locations and make sure you have enough signal bars to connect to 3G, 4G / LTE or 5G. You can also try to change the carrier manually. If you are in good coverage and tried everything else, you can always try a full power-down restart and see if that helps."
+      ]
+    },
+    "common_problems": []
+  },
+  "account_management": {
+    "balance_check": [
+      {
+        "method": "Dial *187# in your Phone application and wait for the operator message with your actual balance.",
+        "ussd_code": "*187#"
+      },
+      {
+        "method": "Check your 'Current Balance' in your personal account dashboard on the globustele.com website."
+      }
+    ],
+    "top_up": {
+      "steps": [
+        "Go to the top-up page at https://globustele.com/#x-topup.",
+        "Enter the IMSI of your eSIM (found in your account dashboard). For some eSIMs, you may need to enter a phone number instead.",
+        "Enter the amount in USD you wish to add (minimum is 5 USD).",
+        "Click 'TOP UP' and complete the payment with your bank card via Stripe."
+      ]
+    }
+  },
+  "security_privacy": {
+    "features": ["Complete privacy - no user data collection"],
+    "advantages": [
+      "1. SIM Toolkit attack. Using a special service SMS and a secret Ki key an attacker can control a subscriber’s SIM card (or eSIM chip) and, using a special surveillance interface built into every GSM phone, eavesdrop on the subscriber during calls or standby.",
+      "2. Monitor the subscriber’s location",
+      "3. Log the subscriber’s calls, messages and data sessions"
+    ],
+    "protection_details": [
+      "A new IMEI is generated every time you install a new eSIM. We have no information on the security of these generated IMEI codes, whether it is possible to infer or retrieve the original IMEI or not. But at least it is not the same."
+    ]
+  },
+  "payment": {
+    "methods": [
+      "Bank Card (Visa, MasterCard, etc.) processed securely through Stripe."
+    ],
+    "currency": "All transactions are processed in USD."
+  },
+  "support": {
+    "contact_methods": [
+      {
+        "method": "Telegram Bot",
+        "details": "For instant answers and troubleshooting. If the bot cannot solve your problem, it can forward your message to a human agent in the support chat."
+      },
+      {
+        "method": "Email",
+        "contact": "support@globustele.com"
+      }
+    ],
+    "response_time": "We do not have a guaranteed response time, but our team strives to address all queries as quickly as possible.",
+    "languages": [
+      "English",
+      "Spanish",
+      "Portuguese",
+      "French",
+      "German",
+      "Chinese",
+      "Japanese",
+      "Korean",
+      "Russian",
+      "Arabic"
+    ]
+  },
+  "examples": {
+    "frequently_asked": [],
+    "conversation_samples": []
+  },
+  "policies": {
+    "refund": "",
+    "support_hours": "",
+    "activation_time": ""
+  },
+  "pricing": {
+    "data_packages": [],
+    "countries": {},
+    "special_offers": []
+  }
+}

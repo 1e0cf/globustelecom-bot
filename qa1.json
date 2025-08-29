@@ -1,0 +1,459 @@
+{
+    "test_date": "2025-08-26",
+    "prompt_version": "1.0",
+    "knowledge_base_version": "1.0 (MD)",
+    "questions": [
+        [
+            {
+                "question": "What is eSIM and how does it work?",
+                "language": "en",
+                "globustele_bot_answer": "eSIM is a digital SIM card that allows you to connect to our Global Mobile Data network without needing a physical SIM card. It provides fast and reliable mobile data access in most countries.\n\nHere's how it works:\n\n*   **Compatibility:** Ensure your smartphone is eSIM compatible. You can check our list of compatible devices on globustele.com.\n*   **Installation:** After purchasing an eSIM, you'll receive instructions via SMS. You can install it by scanning a QR code with your phone's camera or by manually entering details like the SM-DP+ Address and Activation Code.\n*   **Activation:** Once installed, you need to switch on Data Roaming in your phone's settings to connect to our network.\n*   **Usage:** You'll get a UK (+44) phone number for SMS services, useful for messenger registration. Our service focuses on internet access and does not include traditional voice calls.\n*   **Privacy:** Your actual mobile number is not shared with local network providers, enhancing your privacy. A new IMEI is generated with each eSIM installation.",
+                "unisim_bot_answer": "eSIM is an electronic SIM card that is installed directly on the smartphone without buying a physical card. Our eSIM works in 170+ countries. In each country, it connects to a local tarriff, and the balance is spent according to it.",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 8,
+                    "clarity": 9,
+                    "helpfulness": 8,
+                    "tone": 9
+                },
+                "total_score": 44
+            },
+            {
+                "question": "Что такое eSIM и как это работает?",
+                "language": "ru",
+                "globustele_bot_answer": "eSIM — это встроенная SIM-карта, которая позволяет подключаться к мобильным сетям без необходимости использования физической SIM-карты.\n\n**Как это работает:**\n\n1.  **Совместимость:** Убедитесь, что ваше устройство поддерживает технологию eSIM. Список совместимых устройств доступен в нашем FAQ.\n2.  **Покупка и установка:** После покупки eSIM вы получите QR-код или данные для ручной установки.\n    *   **QR-код:** Откройте камеру на iPhone или перейдите в настройки телефона (Настройки > Сотовая связь/Мобильная связь > Добавить тарифный план > Добавить с помощью QR-кода) и отсканируйте код.\n    *   **Вручную:** В настройках телефона найдите опцию 'Добавить тарифный план' или 'Добавить eSIM' и введите данные SM-DP+ Address, Activation Code и Confirmation Code (если есть).\n3.  **Активация:** После установки eSIM вам нужно будет включить роуминг и передачу данных в настройках вашего телефона. Для некоторых eSIM может потребоваться настройка APN. Инструкции будут отправлены в SMS после покупки.\n4.  **Использование:** Вы получите британский номер (+44) для SMS, который можно использовать для регистрации в мессенджерах. Сервис предоставляет доступ к мобильному интернету по всему миру.\n\n**Преимущества:**\n\n*   **Приватность:** Ваш реальный номер не раскрывается местным операторам, что повышает вашу конфиденциальность.\n*   **Безопасность:** Каждый раз при установке новой eSIM генерируется новый IMEI, что затрудняет отслеживание.\n*   **Удобство:** Нет необходимости в физических SIM-картах и документах.\n*   **Доступ к интернету:** Обеспечивает неограниченный доступ в интернет, даже в странах, где есть блокировки.\n\n**Проверка баланса:** Наберите \\*187\\# в приложении телефона.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 9,
+                    "clarity": 9,
+                    "helpfulness": 9,
+                    "tone": 10
+                },
+                "total_score": 47
+            }
+        ],
+        [
+            {
+                "question": "Which countries do you cover?",
+                "language": "en",
+                "globustele_bot_answer": "Our eSIM service provides global mobile data access in almost any country of the world. For specific coverage details, please contact our support team.",
+                "unisim_bot_answer": "You can check the countries and the rates here https://unisim.net/#prices",
+                "scores": {
+                    "accuracy": 4,
+                    "completeness": 1,
+                    "clarity": 8,
+                    "helpfulness": 1,
+                    "tone": 4
+                },
+                "total_score": 18
+            },
+            {
+                "question": "В каких странах работает ваш eSIM?",
+                "language": "ru",
+                "globustele_bot_answer": "Наш eSIM работает практически во всех странах мира. Вы можете наслаждаться неограниченным доступом в Интернет в странах, которые обычно блокируют свободный доступ в Интернет, поскольку наш шлюз находится в Европе.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 4,
+                    "completeness": 1,
+                    "clarity": 8,
+                    "helpfulness": 1,
+                    "tone": 4
+                },
+                "total_score": 18
+            }
+        ],
+        [
+            {
+                "question": "Is iPhone 14 Pro compatible with your eSIM?",
+                "language": "en",
+                "globustele_bot_answer": "Yes, the iPhone 14 Pro is compatible with our eSIM service.",
+                "unisim_bot_answer": "You can check it yourself on this page https://unisim.net/compatibility-check",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 6,
+                    "clarity": 10,
+                    "helpfulness": 7,
+                    "tone": 8
+                },
+                "total_score": 41
+            },
+            {
+                "question": "iPhone 14 Pro поддерживает ваш eSIM?",
+                "language": "ru",
+                "globustele_bot_answer": "Да, iPhone 14 Pro поддерживает нашу технологию eSIM.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 6,
+                    "clarity": 10,
+                    "helpfulness": 7,
+                    "tone": 8
+                },
+                "total_score": 41
+            }
+        ],
+        [
+            {
+                "question": "How do I install eSIM on my iPhone?",
+                "language": "en",
+                "globustele_bot_answer": "To install your eSIM on your iPhone, you can follow these steps:\n\n1.  **Using the QR Code:**\n    *   Open your iPhone's Camera app and scan the QR code provided.\n  *    You will be prompted to install a new plan. Tap 'Install New Plan.'\n   *   A second prompt will appear asking to 'Add new mobile plan?' Tap 'Add.' \n*   Your new data plan will then appear in your eSIMs list.\n\n2.  **Manually:**\n    *   Go to `Settings` > `Mobile Data` > `Add Data Plan`.\n    *   Select `Enter Details Manually`.\n    *   You will need to input the SM-DP+ Address, Activation Code, and Confirmation Code (if available).\n\nFor certain eSIMs, you may need to check and configure your APN settings. The specific instructions for this will be included in the SMS you receive after purchasing and installing your eSIM.",
+                "unisim_bot_answer": "The installation process is described in the step-by-step instruction https://unisim.net/guideinstructions",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            },
+            {
+                "question": "Как установить eSIM на iPhone?",
+                "language": "ru",
+                "globustele_bot_answer": "Для установки eSIM на iPhone выполните следующие действия:\n\n1.  **Убедитесь, что ваш iPhone поддерживает eSIM.** Список совместимых устройств приведен в нашем FAQ.\n2.  **Перейдите в Настройки** > **Сотовая связь** > **Добавить сотовую сеть**.\n3.  **Отсканируйте QR-код**, который вы получили после покупки eSIM. Ваш iPhone предложит установить новый тарифный план.\n4.  Нажмите **Добавить** или **OK**, чтобы подтвердить установку.\n\nЕсли у вас возникнут трудности с QR-кодом, вы можете ввести данные вручную:\n1.  В разделе **Настройки** > **Сотовая связь** > **Добавить сотовую сеть** выберите **Ввести данные вручную**.\n2.  Введите **SM-DP+ адрес** и **Код активации**, которые вы получили в SMS.\n\nПосле установки eSIM убедитесь, что **Роуминг данных** включен в настройках вашего iPhone.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            }
+        ],
+        [
+            {
+                "question": "I can't scan the QR code, what should I do?",
+                "language": "en",
+                "globustele_bot_answer": "If you are unable to scan the QR code, you can add your eSIM manually. Please go to your phone's settings, navigate to 'Connections' or 'Mobile Network,' select 'SIM card manager' or 'Add mobile plan,' and then choose the option to 'Add using QR code' or 'Enter Details Manually.' You will need to input the SM-DP+ Address, Activation Code, and Confirmation Code (if provided). These details are included in the eSIM installation instructions SMS you received after your purchase.",
+                "unisim_bot_answer": "You can install the eSIM manually, please check the related section in the instruction",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            },
+            {
+                "question": "Не могу отсканировать QR-код, что делать?",
+                "language": "ru",
+                "globustele_bot_answer": "Если у вас возникли трудности со сканированием QR-кода для установки eSIM, вы можете добавить ее вручную.\n\nДля этого выполните следующие действия:\n\n1.  **На iPhone:** Перейдите в «Настройки» > «Сотовая связь» > «Добавить тарифный план» > «Ввести данные вручную».\n2.  **На других устройствах:** Найдите аналогичную опцию в разделе «Настройки» > «Мобильная сеть» (или похожий раздел).\n\nВам потребуется ввести следующие данные:\n*   SM-DP+ Address\n*   Activation Code\n*   Confirmation Code (если доступен)\n\nЭти данные вы получите в SMS после покупки eSIM.\n\nЕсли у вас все еще возникают проблемы, или вы не можете найти нужные настройки, пожалуйста, свяжитесь с нашей службой поддержки.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            }
+        ],
+        [
+            {
+                "question": "Internet is not working after installing eSIM, help",
+                "language": "en",
+                "globustele_bot_answer": "Please ensure that you have switched on Data Roaming in your smartphone's settings. If the internet is still not working, you may need to check and configure your APN settings. The instructions for this are included in the eSIM installation SMS you received after purchase.\n\nIf you continue to experience issues, try restarting your device. If the problem persists, it's possible there is limited mobile coverage in your current location. Try moving to a different area or manually changing your carrier.\n\nIf none of these steps resolve the issue, please contact our support team for further assistance.",
+                "unisim_bot_answer": "Did you switch on the roaming?",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            },
+            {
+                "question": "Не работает интернет после установки eSIM, помогите",
+                "language": "ru",
+                "globustele_bot_answer": "Здравствуйте! Сожалею, что у вас возникли проблемы с интернетом после установки eSIM.\n\nДля начала, пожалуйста, убедитесь, что вы выполнили следующие шаги:\n\n1.  **Включите роуминг данных:** Зайдите в настройки вашего телефона, найдите раздел 'Сотовая связь' (или 'Мобильная сеть') и убедитесь, что опции 'Роуминг' и 'Мобильные данные' включены.\n2.  **Проверьте APN:** В SMS-сообщении с инструкциями по установке eSIM должны быть указаны настройки APN. Проверьте, правильно ли они введены в настройках вашего телефона. Если вы не уверены, как это сделать, или не нашли эту информацию, пожалуйста, свяжитесь с нашей службой поддержки.\n\nЕсли после выполнения этих шагов интернет по-прежнему не работает, попробуйте следующее:\n\n*   **Перезагрузите телефон:** Полностью выключите и снова включите ваше устройство.\n*   **Проверьте покрытие:** Убедитесь, что вы находитесь в зоне с хорошим мобильным покрытием. Попробуйте переместиться в другое место.\n*   **Выберите оператора вручную:** В настройках мобильной сети попробуйте вручную выбрать другого доступного оператора.\n\nЕсли проблема сохраняется, возможно, потребуется дополнительная помощь. Пожалуйста, свяжитесь с нашей службой поддержки для дальнейшей диагностики.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            }
+        ],
+        [
+            {
+                "question": "Why do I need to enable roaming?",
+                "language": "en",
+                "globustele_bot_answer": "You need to enable roaming to ensure your connection to the Global Mobile Data network. This allows your device to connect to our network when you are abroad.",
+                "unisim_bot_answer": "eSIM won't work without it. It is a technical requirement",
+                "scores": {
+                    "accuracy": 8,
+                    "completeness": 3,
+                    "clarity": 7,
+                    "helpfulness": 4,
+                    "tone": 6
+                },
+                "total_score": 28
+            },
+            {
+                "question": "Зачем включать роуминг?",
+                "language": "ru",
+                "globustele_bot_answer": "Для подключения к сети Global Mobile Data необходимо включить роуминг и передачу данных в настройках вашего смартфона.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 8,
+                    "completeness": 3,
+                    "clarity": 7,
+                    "helpfulness": 4,
+                    "tone": 6
+                },
+                "total_score": 28
+            }
+        ],
+        [
+            {
+                "question": "How much does 5GB for 30 days cost?",
+                "language": "en",
+                "globustele_bot_answer": "The cost for 5GB of data for 30 days is not specified in the provided information. Please contact our support team for this pricing detail.",
+                "unisim_bot_answer": "We don't have pre-paid packages. You pay as you go for each KB according to your tariff's price",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 1,
+                    "clarity": 10,
+                    "helpfulness": 1,
+                    "tone": 3
+                },
+                "total_score": 25
+            },
+            {
+                "question": "Сколько стоит 5ГБ на 30 дней?",
+                "language": "ru",
+                "globustele_bot_answer": "Стоимость 5 ГБ на 30 дней не указана в предоставленной информации. Пожалуйста, свяжитесь с нашей службой поддержки для уточнения этой информации.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 1,
+                    "clarity": 10,
+                    "helpfulness": 1,
+                    "tone": 3
+                },
+                "total_score": 25
+            }
+        ],
+        [
+            {
+                "question": "What payment methods do you accept?",
+                "language": "en",
+                "globustele_bot_answer": "You can pay with a bank card after completing the registration procedure.",
+                "unisim_bot_answer": "We only accept bank cards at the moment",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 9,
+                    "clarity": 9,
+                    "helpfulness": 9,
+                    "tone": 10
+                },
+                "total_score": 47
+            },
+            {
+                "question": "Какие способы оплаты вы принимаете?",
+                "language": "ru",
+                "globustele_bot_answer": "Мы принимаем оплату банковской картой после завершения процедуры регистрации.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 9,
+                    "clarity": 9,
+                    "helpfulness": 9,
+                    "tone": 10
+                },
+                "total_score": 47
+            }
+        ],
+        [
+            {
+                "question": "How can I check my data balance?",
+                "language": "en",
+                "globustele_bot_answer": "You can check your data balance by dialing ***187#** on your phone's dialer.",
+                "unisim_bot_answer": "You can check it in your account on the website or in the app. Press the arrow button next to the sum to see the actual balance",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            },
+            {
+                "question": "Как проверить остаток трафика?",
+                "language": "ru",
+                "globustele_bot_answer": "Чтобы проверить остаток трафика, наберите на телефоне команду *187# и дождитесь сообщения от оператора с информацией о вашем балансе.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            }
+        ],
+        [
+            {
+                "question": "How long does it take to activate eSIM after purchase?",
+                "language": "en",
+                "globustele_bot_answer": "eSIM activation is typically instant after purchase.",
+                "unisim_bot_answer": "You receive the installation details right after the purchase. eSIM might take up to 10 minutes to activate after the installation",
+                "scores": {
+                    "accuracy": 8,
+                    "completeness": 7,
+                    "clarity": 9,
+                    "helpfulness": 7,
+                    "tone": 9
+                },
+                "total_score": 40
+            },
+            {
+                "question": "Сколько времени занимает активация eSIM после покупки?",
+                "language": "ru",
+                "globustele_bot_answer": "Активация eSIM происходит мгновенно после покупки.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 8,
+                    "completeness": 7,
+                    "clarity": 9,
+                    "helpfulness": 7,
+                    "tone": 9
+                },
+                "total_score": 40
+            }
+        ],
+        [
+            {
+                "question": "I'm traveling to Japan next week, will your eSIM work there?",
+                "language": "en",
+                "globustele_bot_answer": "Yes, our eSIM service works in Japan. You can enjoy fast and reliable mobile data access there.",
+                "unisim_bot_answer": "Yes, you can check the rates under the link we've sent you above",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 7,
+                    "clarity": 10,
+                    "helpfulness": 8,
+                    "tone": 9
+                },
+                "total_score": 44
+            },
+            {
+                "question": "Еду в Японию на следующей неделе, ваш eSIM там работает?",
+                "language": "ru",
+                "globustele_bot_answer": "Да, наш eSIM работает в Японии. Вы можете проверить список совместимых устройств в нашем FAQ.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 2,
+                    "clarity": 3,
+                    "helpfulness": 2,
+                    "tone": 4
+                },
+                "total_score": 21
+            }
+        ],
+        [
+            {
+                "question": "Is WhatsApp working with your eSIM?",
+                "language": "en",
+                "globustele_bot_answer": "Yes, WhatsApp works with our eSIM. You can use the provided UK (+44) phone number for messenger registration.",
+                "unisim_bot_answer": "Yes",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            },
+            {
+                "question": "WhatsApp работает с вашим eSIM?",
+                "language": "ru",
+                "globustele_bot_answer": "Да, WhatsApp работает с нашим eSIM. Вы получите британский номер телефона (+44) для SMS, который можно использовать для регистрации в мессенджерах, таких как WhatsApp.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            }
+        ],
+        [
+            {
+                "question": "Can I top up my data if it runs out?",
+                "language": "en",
+                "globustele_bot_answer": "Yes, you can top up your data if it runs out. To check your current balance, dial *187# on your phone.",
+                "unisim_bot_answer": "You can top up your balance anytime on our website or in the app",
+                "scores": {
+                    "accuracy": 7,
+                    "completeness": 3,
+                    "clarity": 4,
+                    "helpfulness": 3,
+                    "tone": 6
+                },
+                "total_score": 23
+            },
+            {
+                "question": "Могу ли я пополнить трафик, если он закончится?",
+                "language": "ru",
+                "globustele_bot_answer": "Да, вы можете пополнить трафик. Для этого наберите *187# в приложении 'Телефон' и следуйте инструкциям.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 7,
+                    "completeness": 4,
+                    "clarity": 5,
+                    "helpfulness": 4,
+                    "tone": 7
+                },
+                "total_score": 27
+            }
+        ],
+        [
+            {
+                "question": "Can I get a refund if eSIM doesn't work?",
+                "language": "en",
+                "globustele_bot_answer": "If your eSIM is not working, please ensure you have followed the troubleshooting steps, such as switching on data roaming and checking your APN settings. If the issue persists, you may be eligible for a refund. Please contact our support team directly to discuss your specific situation and initiate the refund process.",
+                "unisim_bot_answer": "According to our policy, we can issue the refund only in case of a technical issue preventing you from using the eSIM",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 10,
+                    "clarity": 10,
+                    "helpfulness": 10,
+                    "tone": 10
+                },
+                "total_score": 50
+            },
+            {
+                "question": "Могу ли я получить возврат, если eSIM не работает?",
+                "language": "ru",
+                "globustele_bot_answer": "К сожалению, информация о возможности возврата средств в случае неработоспособности eSIM отсутствует в предоставленном FAQ. Рекомендуем обратиться в службу поддержки globustele.com для уточнения данного вопроса.",
+                "unisim_bot_answer": "",
+                "scores": {
+                    "accuracy": 10,
+                    "completeness": 1,
+                    "clarity": 10,
+                    "helpfulness": 1,
+                    "tone": 2
+                },
+                "total_score": 24
+            }
+        ]
+    ],
+    "average_score": 39.266666666666666,
+    "improvement_from_last": 0
+}
