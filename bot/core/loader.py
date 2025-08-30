@@ -31,6 +31,22 @@ storage = RedisStorage(
 
 dp = Dispatcher(storage=storage)
 
-i18n: I18n = I18n(path=LOCALES_DIR, default_locale=DEFAULT_LOCALE, domain=I18N_DOMAIN)
+
+class NoopI18n(I18n):
+    def find_locales(self):  # type: ignore[override]
+        return {}
+
+
+# Initialize i18n: real when enabled, otherwise no-op; always set context to avoid LookupError
+if settings.USE_I18N:
+    try:
+        i18n: I18n = I18n(path=LOCALES_DIR, default_locale=DEFAULT_LOCALE, domain=I18N_DOMAIN)
+    except Exception:
+        i18n = NoopI18n(path=LOCALES_DIR, default_locale=DEFAULT_LOCALE, domain=I18N_DOMAIN)
+else:
+    i18n = NoopI18n(path=LOCALES_DIR, default_locale=DEFAULT_LOCALE, domain=I18N_DOMAIN)
+
+# Ensure gettext context is available for modules importing aiogram.utils.i18n.gettext
+I18n.set_current(i18n)
 
 DEBUG = settings.DEBUG

@@ -39,6 +39,7 @@ class BotSettings(WebhookSettings):
     RATE_LIMIT: int | float = 0.5  # for throttling control
     GEMINI_API_KEY: str | None = None
     MANAGERS_GROUP_ID: int | None = None
+    USE_I18N: bool = False
 
 
 class DBSettings(EnvBaseSettings):
