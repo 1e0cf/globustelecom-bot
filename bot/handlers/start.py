@@ -15,7 +15,7 @@ from bot.core.config import settings
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from bot.cache.redis import set_redis_value
 from bot.core.loader import redis_client
-
+from loguru import logger
 
 class Onboarding(StatesGroup):
     """FSM for onboarding: /start -> choose language -> ask question."""
@@ -87,7 +87,7 @@ async def question_handler(message: types.Message, state: FSMContext, session) -
     async with ChatActionSender.typing(bot=message.bot, chat_id=message.chat.id):
         client = get_openai_client()
         answer_text = await client.answer(question=message.text, language_code=lang_code)
-
+    logger.info(f"GPT answer: {answer_text}")
     if not answer_text:
         fallbacks = {
             "en": "Sorry, I couldn't generate an answer right now. Please try again or rephrase your question.",
