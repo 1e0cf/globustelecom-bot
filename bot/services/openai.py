@@ -51,7 +51,8 @@ class OpenAIClient:
         system_prompt = (
             "You are a helpful, technically skilled support manager for the eSIM store globustele.com. "
             "Answer strictly in the user's language: {lang}. Be concise, accurate and practical. "
-            "Use the provided knowledge base in json format. If a policy or price is unknown, say that it's unclear and suggest contacting support."
+            "Use the provided knowledge base in json format. If a policy or price is unknown, say that it's unclear and suggest contacting support. "
+            "IMPORTANT: Do not use any markdown or HTML formatting in your response. Provide the answer as plain text only."
         ).format(lang=lang_label)
 
         # Prepare messages for OpenAI

@@ -4,7 +4,6 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 from aiogram.utils.i18n import gettext as _
 from aiogram.utils.chat_action import ChatActionSender
-from aiogram.enums import ParseMode
 
 from bot.keyboards.inline.languages import language_keyboard
 from bot.services.analytics import analytics
@@ -87,7 +86,7 @@ async def question_handler(message: types.Message, state: FSMContext, session) -
     async with ChatActionSender.typing(bot=message.bot, chat_id=message.chat.id):
         client = get_openai_client()
         answer_text = await client.answer(question=message.text, language_code=lang_code)
-    logger.info(f"GPT answer: {answer_text}")
+    logger.debug(f"GPT answer text: {repr(answer_text)}")
     if not answer_text:
         fallbacks = {
             "en": "Sorry, I couldn't generate an answer right now. Please try again or rephrase your question.",
@@ -139,14 +138,15 @@ async def question_handler(message: types.Message, state: FSMContext, session) -
             kb.button(text=button_text, callback_data="contact_support")
             reply_markup = kb.as_markup()
 
-        await message.answer(chunk, parse_mode=ParseMode.MARKDOWN, reply_markup=reply_markup)
+        # Отправляем текст без специального режима парсинга разметки
+        await message.answer(chunk, reply_markup=reply_markup)
 
     # Stay in ask_question state for follow-up questions
     await state.set_state(Onboarding.ask_question)
 
 
 @router.callback_query(F.data == "contact_support")
-async def contact_support_clicked(callback: types.CallbackQuery, state: FSMContext) -> None:
+async def contact_support_clicked(callback: types.CallbackQuery, state: FSMContext, session) -> None:
     """User clicked contact support: remove button and ask to write a question."""
     if not callback.from_user:
         return
@@ -157,15 +157,14 @@ async def contact_support_clicked(callback: types.CallbackQuery, state: FSMConte
     except Exception:
         pass
 
-    # Determine language preference from FSM or user
-    data = await state.get_data()
-    lang_code = data.get("language_code") or (callback.from_user.language_code or "en")
+    # Determine language preference from DB or user
+    lang_code = await get_language_code(session=session, user_id=callback.from_user.id) or (callback.from_user.language_code or "en")
     support_prompts = {
         "en": "Please write your question:",
         "ru": "Напишите ваш вопрос:",
         "es": "Por favor, escriba su pregunta:",
         "pt": "Por favor, escreva sua pergunta:",
-        "fr": "Veuillez écrire votre question :",
+        "fr": "Veuillez écrire votre question:",
         "de": "Bitte schreiben Sie Ihre Frage:",
         "zh": "请写下您的问题：",
         "ja": "質問を書いてください:",
