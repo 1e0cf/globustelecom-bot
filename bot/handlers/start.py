@@ -10,6 +10,7 @@ from bot.keyboards.inline.languages import language_keyboard
 from bot.services.analytics import analytics
 from bot.services.users import set_language_code, get_language_code
 from bot.services.gemini import get_gemini_client
+from bot.services.openai import get_openai_client
 from bot.core.config import settings
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from bot.cache.redis import set_redis_value
@@ -35,7 +36,7 @@ async def start_handler(message: types.Message, state: FSMContext) -> None:
     # Reset per-session counters
     await state.update_data(post_start_count=0)
     await message.answer(
-        _("Please choose your language:"),
+        _("WELCOME TO THE GLOBAL & USER-FIRST TELECOMMUNITY!\n\nPlease choose your language:"),
         reply_markup=language_keyboard(),
     )
 
@@ -84,7 +85,7 @@ async def question_handler(message: types.Message, state: FSMContext, session) -
 
     # Indicate typing while processing
     async with ChatActionSender.typing(bot=message.bot, chat_id=message.chat.id):
-        client = get_gemini_client()
+        client = get_openai_client()
         answer_text = await client.answer(question=message.text, language_code=lang_code)
 
     if not answer_text:

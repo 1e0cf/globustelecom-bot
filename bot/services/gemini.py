@@ -28,6 +28,7 @@ class GeminiClient:
     @staticmethod
     @lru_cache(maxsize=1)
     def load_knowledge_base() -> str:
+        """Load the knowledge base from a JSON file."""
         path = Path(DIR) / "knowledge_base.json"
         try:
             return path.read_text(encoding="utf-8")
@@ -82,7 +83,7 @@ class GeminiClient:
             try:
                 start = perf_counter()
                 logger.info(
-                    "Gemini request → sending | attempt={} | lang={} | q_len={} | knowledge_base_len={}",
+                    "Gemini request \u2192 sending | attempt={} | lang={} | q_len={} | knowledge_base_len={}",
                     attempt,
                     lang_label,
                     len(question or ""),
@@ -113,7 +114,7 @@ class GeminiClient:
 
                 text: str = (getattr(response, "text", "") or "").strip()
                 logger.info(
-                    "Gemini response ← received | ms={} | text_len={} | finish_reasons={} | safety_blocks={}",
+                    "Gemini response \u2190 received | ms={} | text_len={} | finish_reasons={} | safety_blocks={}",
                     elapsed_ms,
                     len(text),
                     finish_reasons or None,
@@ -142,6 +143,7 @@ class GeminiClient:
 
 @lru_cache(maxsize=1)
 def get_gemini_client() -> GeminiClient:
+    """Get a singleton instance of the Gemini client."""
     api_key = settings.GEMINI_API_KEY or ""
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not configured")
